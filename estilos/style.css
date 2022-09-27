@@ -7,7 +7,7 @@
 html, body{
     height:  100vh;
     height: 100vw;
-    background-color: black;
+   
 }
 body{
     background: url("../imagens/fundo-madeira.jpg")no-repeat top center;
@@ -16,6 +16,9 @@ main{position: relative;
     height: 100vh;
    
 } 
+section#redes-sociais{
+    text-align: right;
+}
     section#telefone{
     position: absolute;
     top :50%;
@@ -31,4 +34,16 @@ iframe#tela{
     left: 22px;
     width: 269px;
     height: 471px;
+}
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px ,-3px);
+    box-shadow: 5px 5px 10px black;
+    transition: .3s, border 1s;
 }
